@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #8a2be2;
+    padding: 8px 4px;
+    box-shadow: 0px 6px 4px rgba(0,0,0,0.7);
+}
+
+.dizer{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.menu-bar{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.menu-bar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    transition: 0.3s;
+}
+
+.menu-bar li a:hover {
+    color: #00bcd4;
+}
+
+/* Hero Section */
+.sec1-1 img {
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.sec1-2 h1 {
+    font-size: 28px;
+    color: orangered;
+    font-style: normal;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.sec1-2 p {
+    font-size: 16px;
+    color: blue;
+    margin: 15px 0;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.sec1-2 button {
+    color: orange;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: blue;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sec1-2 button:hover {
+    background-color: orange;
+    color: orange;
+}
